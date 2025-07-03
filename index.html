@@ -1,51 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Geerla Achyutha | Java Full Stack Developer</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <h1>My Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm a passionate developer skilled in web development and cybersecurity.</p>
-    </section>
-    
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Detection of Phishing websites</h3>
-            <p>It is built by Machine learning algorithims like classification and random forest also like boosting algos like Light Gbm</p>
-        </div>
-        <div class="project">
-            <h3>Project 2</h3>
-            <p>Description of your second project.</p>
-        </div>
-    </section>
-    
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form id="contact-form">
-            <input type="text" id="name" placeholder="Your Name" required>
-            <input type="email" id="email" placeholder="Your Email" required>
-            <textarea id="message" placeholder="Your Message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
-        <p id="response"></p>
-    </section>
-    
-    <script src="script.js"></script>
+
+  <!-- HERO -->
+  <section id="hero" class="glass-section">
+    <h1>Geerla Achyutha</h1>
+    <p>Java Full Stack Developer</p>
+    <a href="#projects" class="btn">View Projects</a>
+    <a href="resume.pdf" class="btn" download>Download Resume</a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="glass-section">
+    <h2>About Me</h2>
+    <p>I'm a B.Tech Computer Science student from Reva University with hands-on experience in Java, Spring Boot, AngularJS, and full-stack development. I specialize in building scalable backend systems and beautiful UIs.</p>
+    <ul class="skills">
+      <li>Java</li>
+      <li>Spring Boot</li>
+      <li>AngularJS</li>
+      <li>JavaScript</li>
+      <li>MySQL</li>
+      <li>Git</li>
+    </ul>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="glass-section">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Online Bank Management System</h3>
+      <p>Built with Spring Boot, AngularJS & MySQL. Handles 1K+ daily transactions with JWT-secured APIs and optimized queries.</p>
+      <a href="https://github.com/Achyuth7891/Online-bank-management-system" target="_blank">GitHub</a>
+    </div>
+    <div class="project">
+      <h3>Employee Management System</h3>
+      <p>Role-based access control system using PHP & MySQL. Reduced unauthorized access by 90% and automated HR tasks.</p>
+      <a href="https://github.com/Achyuth7891/Employee-management-system" target="_blank">GitHub</a>
+    </div>
+  </section>
+
+  <!-- BLOG -->
+  <section id="blog" class="glass-section">
+    <h2>Blog</h2>
+    <div class="blog-post">
+      <h4>Why I Chose Java for Backend</h4>
+      <p>A quick dive into my journey as a Java backend developer and why it’s still a solid choice in 2025.</p>
+    </div>
+    <div class="blog-post">
+      <h4>My Internship at Capgemini</h4>
+      <p>Working in a team of 5 on an agile model taught me more than code. Here’s my experience.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="glass-section">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <div class="socials">
+      <a href="https://github.com/Achyuth7891" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/geerlaachyutha" target="_blank">LinkedIn</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Geerla Achyutha. All rights reserved.</p>
+    <a href="#hero">Back to Top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
